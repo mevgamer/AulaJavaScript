@@ -1,3 +1,24 @@
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "passe o mouse aqui";
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse";
+    alert("trocar texto");
+}
+
+function redirecionar(){
+    window.open("https://www.google.com.br");
+    
+}
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!";
+    //console.log(document.getElementById("agradecimento"))
+    //alert("Obrigado por clicar!");
+}
+
+/*
 function soma(n1,n2){
     return n1+n2;
 }
@@ -14,7 +35,7 @@ function validaIdade(idade){
 
 var idade = prompt("qual a sua idade?");
 console.log(validaIdade(idade));
-
+*/
 //alert(soma(5,10))
 
 
