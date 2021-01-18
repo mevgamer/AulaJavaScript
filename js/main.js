@@ -1,7 +1,37 @@
+
+/*
+var d = new Date();
+alert(d.getDay);
+
+*/
+
+/*
+var count;
+for(count=0; count<=5; count++){
+    alert(count);
+}
+*/
+/*
+var count = 5;
+while (count <= 5){
+    console.log(count);
+    count = count +1;
+}
+*/
+/*
+var idade = prompt("qual sua idade");
+
+if (idade >= 18) {
+    alert("Maior de idade");
+}else{
+    alert("Menor de idade");
+}
+*/
+/*
 var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva" , cor:"roxa"}];
 console.log(frutas);
 alert(frutas[1].nome);
-
+*/
 
 /*
 var fruta = {nome:"maça", cor:"vermelha"}
